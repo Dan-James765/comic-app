@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Red Ant Comics</title>
+    <meta name="description" content="Red Ant Comics" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1 class="site-heading">Red Ant Comics</h1>
+      <button class="favourites-toggle js-favourites-toggle"></button>
+    </header>
+
+    <main class="site-content">
+      <ul id="comics-list" class="comics-list">
+        Template for list items:
+        <li class="comic-item">
+          <div class="comic-card">
+            <img src="..." />
+            <h2>Comic name</h2>
+            <button class="button js-add">Add to favourites</button>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <div id="favourites-panel" class="favourites-panel">
+      <div class="favourites-header">
+        <h2>Favourites</h2>
+        <button class="close js-close"></button>
+      </div>
+      <div class="favourites-content">
+        <ul class="favourites-list">
+          Template for list items:
+          <li>
+            Comic name
+            <button class="remove js-remove"></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

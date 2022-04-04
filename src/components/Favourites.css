@@ -1,0 +1,85 @@
+.favourites-toggle {
+  position: absolute;
+  top: 50%;
+  margin-top: -18px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  background: url("../images/star.svg") 50% 50% no-repeat;
+  background-size: 60%;
+}
+
+.favourites-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 320px;
+  background: #fff;
+  transform: translate3d(100%, 0, 0);
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.favourites-panel.open {
+  transform: translate3d(0, 0, 0);
+}
+
+.favourites-header {
+  height: 64px;
+  background: #575757;
+  color: #fff;
+  text-align: center;
+  line-height: 64px;
+  position: relative;
+}
+
+.favourites-header h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+}
+
+.close {
+  position: absolute;
+  top: 50%;
+  margin-top: -18px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: url("../images/close.svg") 50% 50% no-repeat;
+  background-size: 45%;
+}
+
+.favourites-list {
+  margin: 0;
+  padding: 0;
+  list-style: outside none;
+}
+
+.favourites-list li {
+  padding: 15px 50px 15px 15px;
+  border-bottom: 1px solid #eaeaea;
+  position: relative;
+}
+
+.favourites-list .remove {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  width: 32px;
+  height: 32px;
+  margin-top: -16px;
+  background: url("../images/remove.svg") 50% 50% no-repeat;
+  background-size: 50%;
+  border: 0;
+  opacity: 0.2;
+  cursor: pointer;
+}

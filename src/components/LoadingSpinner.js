@@ -3,7 +3,7 @@ import "./LoadingSpinner.css";
 
 function LoadingSpinner() {
   return (
-    <div className="spinner-container">
+    <div className="flex justify-center items-center pt-10">
       <div className="loading-spinner"></div>
     </div>
   );

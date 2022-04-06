@@ -35,7 +35,9 @@
   },
   "description": "The objective is to create an app called 'Red Ant Comics'. This app will comprise of a listing page of comics with the ability to add comics to a favourites list.",
   "main": "index.js",
-  "devDependencies": {},
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
 }

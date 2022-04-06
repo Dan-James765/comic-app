@@ -224,12 +224,6 @@ body {
   overflow: hidden;
 }
 
-.comic-item {
-  float: left;
-  padding: 10px;
-  width: 100%;
-}
-
 @media only screen and (min-width: 480px) {
   .comic-item {
     width: 50%;

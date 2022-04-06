@@ -26,21 +26,17 @@ You will need to use the following url to request the comics endpoint from the M
 
 [https://gateway.marvel.com/v1/public/comics?apikey=3cb62d086d5debdeea139095cbb07fe4&ts=redant&hash=140e85a50884cef76d614f6dacada288](https://gateway.marvel.com/v1/public/comics?apikey=3cb62d086d5debdeea139095cbb07fe4&ts=redant&hash=140e85a50884cef76d614f6dacada288)
 
-//Job Done
-
 #### Additional details
 
 - **Documentation:** [http://developer.marvel.com/documentation/generalinfo](http://developer.marvel.com/documentation/generalinfo)
 - **List of end points:** [http://developer.marvel.com/docs](http://developer.marvel.com/docs)
 - **Image formats** [http://developer.marvel.com/documentation/images](http://developer.marvel.com/documentation/images)
-  //Job Done
 
 #### Images
 
 The API will provide part of the image url and the extension. To get the full valid URL you will need to select an image size and append into the URL (sizes are show within the Image formats link above). For example the following link is using 'portrait_uncanny' image size.
 
 http://i.annihil.us/u/prod/marvel/i/mg/3/40/4bb4680432f73/portrait_uncanny.jpg
-//Job Done
 
 ### Favourites
 
